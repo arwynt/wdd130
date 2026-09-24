@@ -1,20 +1,17 @@
 :root {
-    /* --primary-color: #bc1d75;
-    --secondary-color: #580d36;
-    --accent1-color: #580d36;
-    --accent2-color: #b99643; */
     --dark-pink: #580d36;
     --medium-pink: #bc1d75;
     --pink: #d9539d;
-    --light-pink: #ffb6df;
+    /* --light-pink: #ffb6df; */
     --yellow: #d9bf61;
     --dark-yellow: #b99643;
-    --light-green: #98a665;
+    /* --light-green: #98a665;
     --green: #7b874c;
     --dark-green: #3e442c;
     --cream: #f2ecce;
-    --gray-cream: #d9d4b8;
-    --khaki: #a69b79;
+    --light-khaki: #d9d4b8;
+    --khaki: #a69b79; */
+    --contrast-font-color: black;
     --heading-font: "Comic Sans MS", "Times New Roman", monospace;
     --body-font: "American Typewriter", "Courier", serif;
 }
@@ -27,7 +24,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--dark-green);
+    color: var(--dark-pink);
 }
 
 header,
@@ -44,7 +41,7 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--khaki);
+    color: var(--pink);
 }
 
 nav,
@@ -77,7 +74,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--yellow);
-    color: black;
+    color: var(--contrast-font-color);
 }
 
 .hero article {
@@ -89,7 +86,7 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--dark-yellow);
-    color: black;
+    color: var(--contrast-font-color);
 }
 
 .hero article img {
@@ -100,4 +97,9 @@ h1 {
 
 .socialmedia a img {
     height: 45px;
+}
+
+header nav a {
+    color: var(--medium-pink);
+    text-decoration: none;
 }
