@@ -4,7 +4,7 @@
     --pink: #d9539d;
     --yellow: #d9bf61;
     --dark-yellow: #b99643;
-    --green: #7b874c;
+    --dark-green: #3e442c;
     --contrast-font-color: black;
     --heading-font: "Comic Sans MS", "Times New Roman", monospace;
     --body-font: "American Typewriter", "Courier", serif;
@@ -41,7 +41,7 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--green);
+    color: var(--dark-green);
 }
 
 section,
