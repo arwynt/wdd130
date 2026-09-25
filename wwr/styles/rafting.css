@@ -4,6 +4,7 @@
     --pink: #d9539d;
     --yellow: #d9bf61;
     --dark-yellow: #b99643;
+    --green: #7b874c;
     --contrast-font-color: black;
     --heading-font: "Comic Sans MS", "Times New Roman", monospace;
     --body-font: "American Typewriter", "Courier", serif;
@@ -40,7 +41,7 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--pink);
+    color: var(--green);
 }
 
 section,
@@ -153,8 +154,4 @@ footer {
 footer .socialmedia {
     display: flex;
     justify-content: end;
-}
-
-.socialmedia a img {
-    height: 45px;
 }
