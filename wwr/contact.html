@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description"
+      content="This page is for contacting Riverstone Rafting Company for questions, reservations, website suggestions, and more.">
+    <meta name="author" content="Arwyn Taylor">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/riverstone-logo.jpg" alt="Riverstone Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="contact-info">
+            <h2>Riverstone Rafting Company</h2>
+            <p>123 Main River Street</p>
+            <p>Forks, Washington</p>
+            <p>+1 999 999 9999</p>
+            <p>info@riverstone.com</p>
+        </section>
+
+        <section class="contact-form">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42754.6819736075!2d-124.42686664680048!3d47.95248258797409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548e3e3073d1fad5%3A0xff8145429291a5f2!2sForks%2C%20WA%2098331!5e0!3m2!1sen!2sus!4v1790886569345!5m2!1sen!2sus"
+                  width="400" height="300" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+            <form action="contact">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general">
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type here"></textarea>
+
+                <label>
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <figure>
+                <img src="images/marcus-bennett.jpg" alt="Marcus Bennett, General Manager">
+                <figcaption>
+                    <strong>Marcus Bennett</strong><br>
+                    General Manager
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/emily-carter.jpg" alt="Emily Carter, Reservations Coordinator">
+                <figcaption>
+                    <strong>Emily Carter</strong><br>
+                    Reservations Coordinator
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/alex-rivera.jpg" alt="Alex Rivera, River Guide">
+                <figcaption>
+                    <strong>Alex Rivera</strong><br>
+                    River Guide
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2026 🚣🏻‍♀️ Riverstone 🚣🏻‍♀️ Arwyn Taylor</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://tiktok.com">
+                <img src="images/tiktok.svg" alt="TikTok Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
